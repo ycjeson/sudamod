@@ -50,7 +50,7 @@ Creating directory for where the SudaMod repo will be stored and synced
 
 Initializing the SudaMod repo and downloading the manifest
 
-    $ repo init -u git://github.com/changyuet/android.git -b sm-2.0
+    $ repo init -u git://github.com/changyuet/sudamod.git -b sm-2.0
     
 Syncing the source
 
