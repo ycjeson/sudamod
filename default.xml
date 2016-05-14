@@ -48,11 +48,15 @@
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
   <project path="packages/services/Telecomm" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />  
   <project path="packages/services/Telephony" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/WeatherProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_providers_WeatherProvider" />
   <project path="system/core" remote="suda" revision="sm-2.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-2.0" name="SudaMod/android_vendor_sm" />
   <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
+  <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" remote="suda" revision="cm-13.0" />
+  <project path="device/qcom/sepolicy" name="SudaMod/android_device_qcom_sepolicy" remote="suda" revision="sm-2.0" />
   <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-2.0"  />
+  <project path="packages/apps/doze" name="SudaMod/android_packages_apps_doze" remote="suda" revision="sm-2.0"  />
 <!-- END SUDAMOD -->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -69,7 +73,6 @@
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
@@ -141,7 +144,6 @@
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
@@ -196,7 +198,6 @@
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
@@ -252,6 +253,7 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
@@ -283,7 +285,6 @@
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
@@ -306,6 +307,13 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+
+<!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
+<!-- END CMSDK SAMPLES -->
+
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
