@@ -29,32 +29,7 @@
 
   <project path="android" remote="suda" revision="sm-2.0" name="SudaMod/android" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-2.0" name="SudaMod/android_external_suda_SudaSDKs" />
-  <project path="frameworks/base" remote="suda" revision="sm-2.0" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
-  <project path="packages/apps/Calendar" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />  
-  <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
-  <project path="packages/apps/Contacts" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Contacts" groups="pdk-fs" /> 
-  <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/CMFileManager" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/DeskClock" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_DeskClock" groups="pdk-fs" />  
-  <project path="packages/apps/Dialer" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Dialer" groups="pdk-fs" />
-  <project path="packages/apps/Eleven" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Eleven" />
-  <project path="packages/apps/InCallUI" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_InCallUI" groups="pdk-fs" /> 
-  <project path="packages/apps/LockClock" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Messaging" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Settings" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="packages/apps/Stk" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />  
   <!-- <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_SudaLauncher" /> -->
-  <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
-  <project path="packages/services/Telecomm" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />  
-  <project path="packages/services/Telephony" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/WeatherProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_providers_WeatherProvider" />
-  <project path="system/core" remote="suda" revision="sm-2.0" name="SudaMod/android_system_core" groups="pdk" /> 
-  <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
-  <project path="vendor/sm" remote="suda" revision="sm-2.0" name="SudaMod/android_vendor_sm" />
-  <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
-  <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-2.0"  />
-  <project path="packages/apps/doze" name="SudaMod/android_packages_apps_doze" remote="suda" revision="sm-2.0"  />
 <!-- END SUDAMOD -->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -174,6 +149,7 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" remote="suda" revision="sm-2.0" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -219,10 +195,19 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
+  <project path="packages/apps/Calendar" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />  
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CMFileManager" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Contacts" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Contacts" groups="pdk-fs" /> 
+  <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
+  <project path="packages/apps/DeskClock" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_DeskClock" groups="pdk-fs" />  
+  <project path="packages/apps/Dialer" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Eleven" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
@@ -230,20 +215,26 @@
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_InCallUI" groups="pdk-fs" /> 
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/LockClock" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
+  <project path="packages/apps/Settings" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
+  <project path="packages/apps/Stk" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />  
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-2.0"  />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -259,11 +250,14 @@
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/WeatherProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_providers_WeatherProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />  
+  <project path="packages/services/Telephony" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" />
@@ -274,13 +268,19 @@
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
+  <project path="system/core" remote="suda" revision="sm-2.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="vendor/sm" remote="suda" revision="sm-2.0" name="SudaMod/android_vendor_sm" />
+  <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
+  <project path="packages/apps/doze" name="SudaMod/android_packages_apps_doze" remote="suda" revision="sm-2.0"  />
+  <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
